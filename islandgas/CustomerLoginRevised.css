@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FBE27C
+}
+
+.child-container1 {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #FBE27C;
+    text-align: center;
+    position: relative;
+}
+
+#island-logo {
+    position: absolute;
+    margin: 0;
+    width: 180px;
+    top: 90px;
+    left: 230px;
+}
+
+#island-logo1 {
+    position: absolute;
+    margin: 0;
+    width: 220px;
+    top: 290px;
+    left: 215px;
+}
+
+#island-logo2 {
+    position: absolute;
+    margin: 0;
+    width: 130px;
+    top: 360px;
+    left: 260px;
+}
+
+.child-container2 {
+    position: absolute;
+    right: 13%;
+    top: 10%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #c8c8c8;
+    width: 35%;
+}
+
+h1 {
+    font-family: Calibri;
+    font-size: 35px;
+    text-align: center;
+}
+
+label, a, p {
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+
+input[type=text], input[type=password] {
+    width: 390px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccccccc2;
+    padding: 10px;
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+.login-form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form tr td {
+    width: 70%;
+    padding: 8px;
+}
+
+button {
+    width: 390px;
+    height: 40px;
+    background-color: #FBE27C;
+    font-family: Calibri;
+    font-size: 17px;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d5bf65;
+}

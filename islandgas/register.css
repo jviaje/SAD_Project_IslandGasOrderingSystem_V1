@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Calibri;
+}
+body{
+	background-color:#fbe27c;
+    padding: 0;
+}
+
+/* Logo */
+.logo {
+    height: 60px;
+    position: relative;
+}
+#island-logo {
+    width: 60px;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    transform: translate(0, -50%)
+}
+#island-logo1 {
+    width: 100px;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+    transform: translate(0, -50%)
+}
+#island-logo2 {
+    width: 59px;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 178px;
+    transform: translate(0, -50%)
+}
+
+/* Registration form container */
+.register-form-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 45%;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #c8c8c8;
+}
+h1 {
+    font-family: Calibri;
+    font-size: 35px;
+    text-align: center;
+}
+.register-form-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.register-form-table tr td {
+    padding: 10px;
+    font-size: 16px;
+    font-family: Calibri;
+    width: 35%;
+}
+/* All textboxes except username, password, and confirm password */
+.input {
+    font-family: Calibri;
+    font-size: 16px;
+    width: 240px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.3s;
+    outline: none;
+}
+/* Gender dropdown list */
+#gender-select {
+    position: absolute;
+    font-family: Calibri;
+    font-size: 16px;
+    top: 283px;
+    right: 380px;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: 0.3s;
+    outline: none;
+}
+/* Textbox border design */
+input:hover, select:hover {
+    border: 1px solid #fbe27c;
+}
+input:focus, select:focus {
+    border: 2px solid #fbe27c;
+}
+/* Textbox of username, password, and confirm password */
+.userpass, .userpass1, .userpass2 {
+    font-family: Calibri;
+    position: absolute;
+    font-size: 16px;
+    width: 504px;
+    height: 35px;
+    left: 380px;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.userpass {
+    top: 505px;
+}
+.userpass1 {
+    top: 585px;
+}
+.userpass2 {
+    top: 665px;
+}
+/* Textbox of full address, city, country, and postal code */
+.address, .address1, .address2, .address3 {
+    position: absolute;
+    font-family: Calibri;
+    font-size: 16px;
+    width: 350px;
+    height: 35px;
+    right: 380px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.3s;
+}
+.address {
+    top: 736px;
+}
+.address1 {
+    top: 777px;
+}
+.address2 {
+    top: 818px;
+}
+.address3 {
+    top: 859px;
+}
+/* Textbox of fname, mname, and lname */
+.fname, .mname, .lname {
+    position: absolute;
+    font-family: Calibri;
+    font-size: 16px;
+    width: 350px;
+    height: 35px;
+    right: 380px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.3s;
+}
+.fname {
+    top: 158px;
+}
+.mname {
+    top: 200px;
+}
+.lname {
+    top: 242px;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+
+/**
+eto pag ang hover ka sa btn yung kulay lalabas
+*/
+
+/**
+eto yung sa UI sa cp lang sya para sumakto mismo sa kahit anong device actually kung paano sya maviview pwede mo din tignan sa inspect option tas tablet type na view.
+*/
+@media (max-width: 420px){
+    .wrapper .form .input_field{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .wrapper .form .input_field label{
+        margin-bottom: 5px;
+    }
+    .wrapper .form .input_field.terms{
+        flex-direction: row;
+    }
+       
+}
+.btnHome{
+    padding: 10px 20px;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    background: #43b97e ;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+	color: white;
+    width: 200px;
+}
+.btnHome:hover{
+    background: #2a8762;
+    color:#ffffff;
+}

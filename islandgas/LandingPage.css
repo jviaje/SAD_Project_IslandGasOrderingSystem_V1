@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+/* Logo */
+.logo {
+    height: 60px;
+    position: absolute;
+}
+#island-logo {
+    width: 60px;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    transform: translate(0, -50%);
+}
+#island-logo1 {
+    width: 100px;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+    transform: translate(0, -50%);
+}
+#island-logo2 {
+    width: 59px;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 178px;
+    transform: translate(0, -50%);
+}
+
+/* bg img */
+.bg-img img {
+    position: absolute;
+    top: 10;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+/* content */
+.content {
+    /* line-height: 80px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; */
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: auto;
+    text-align: center !important;
+}
+.content h1 {
+    font-size: 45px;
+    font-family: 'Acme', sans-serif;
+    color: #DE4021;
+}
+.content a button {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Acme', sans-serif;
+    background-color: #DE4021;
+    padding: 5px;
+    border: none;
+    width: 250px;
+    box-shadow: 1px 1px 10px 1px #c8c8c8;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.content a button:hover {
+    background-color: #941c04;
+}
+.main-body {
+    position: relative;
+    height: 100%;
+    bottom: 0;
+}
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background-color: #24262b;
+    padding: 10px 0;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+  }
+  .container{
+    max-width: 1170px;
+    margin: auto;
+  }
+  /*
+  dito pinag horizontal yung pagka linya nila
+  */
+  .container .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row .footer-col ul{
+    list-style: none;
+    padding:0;
+  }
+  /*
+  eto yung pag hahati sa loob ng footer
+  */
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+  /*
+  eto yung header 4/ h4 
+  */
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  /*
+  dito yung line na red na kalahati lang
+  */
+  .footer-col h4::before{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  /*
+  dito naman bali pinaluwag lang yung ilalim ng mga bawat ul/li
+  */
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  /*
+  dito naman yung mga links chuchu
+  */
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  /*
+  eto naman pag hinover mo sya gigilid
+  */
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  /*
+  dito naman yung sa mga social links kung paano sila ni resize chuchu
+  */
+  .footer-col .social-links a i{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  /*
+  eto naman pag hinover mo don sa social links
+  */
+  .footer-col .social-links a i:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+
+  .myCustomButtonColor{
+    background-color: pink !important;
+  }
